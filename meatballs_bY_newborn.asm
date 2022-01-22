@@ -12,7 +12,7 @@ AboutText 		db "     PERYFERiAH tEAM PrEsEnT",0
 				
 				db "Cracker    : GRUiA",13
 				db "Protection : MD5",13
-				db "Date       : 22.o1.2o21",13
+				db "Date       : 22.o1.2o22",13
 				db "Music      : <FamiCommodore>",0
 				
 				db "10x go 2 :",0
@@ -769,7 +769,7 @@ loc_401624:                             ; CODE XREF: sub_4015B8+65?j
                 mov     [esi], eax
                 add     esi, 4
                 inc     [ebp+var_4]
-                cmp     [ebp+var_4], 0E3h ; 'ã'
+                cmp     [ebp+var_4], 0E3h ; 'Ã£'
                 jnz     short loc_4015F6
 
 loc_401635:                             ; CODE XREF: sub_4015B8+BA?j
